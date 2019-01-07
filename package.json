@@ -1,0 +1,35 @@
+{
+  "name": "sidebar_proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server",
+    "dev-react": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Themyscira19/Sidebar-Proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Themyscira19/Sidebar-Proxy/issues"
+  },
+  "homepage": "https://github.com/Themyscira19/Sidebar-Proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "jest": "^23.6.0",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
